@@ -1,0 +1,25 @@
+Package: interactiveeafplots
+Type: Package
+Title: Visualising the Empirical Attainment Function interactively
+Version: 1.0.0
+Author: Yasin Gija [aut, cre]
+Maintainer: Yasin Gija <yasingija@gmail.com>
+Description: Plotting the Empirical Attainment Function(EAF),
+    the EAF differences, the symmetric deviation function and 3d plots
+    of the EAF.
+License: GPL (>= 3)
+URL: https://github.com/YasiinsG/interactiveeafplots
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    gMOIP,
+    graphics,
+    moocore,
+    patchwork,
+    plotly,
+    purrr,
+    rgl,
+    stringr,
+    tidyr
+RoxygenNote: 7.3.2
