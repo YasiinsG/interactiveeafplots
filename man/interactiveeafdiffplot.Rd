@@ -68,15 +68,9 @@ Interactively plotting the EAF difference
 # in a full-sized html window.
 
 options("warn"=-1)
-suppressMessages(library(dplyr))
-suppressMessages(library(plotly))
-library(moocore)
-library(tidyr)
-library(purrr)
-library(stringr)
-library(patchwork)
+library(interactiveeafplots)
 
-extdata_dir <- system.file(package="moocore", "extdata")
+extdata_dir <- system.file(package="interactiveeafplots", "data/extdata")
 A1 <- read_datasets(file.path(extdata_dir, "ALG_1_dat.xz"))
 A2 <- read_datasets(file.path(extdata_dir, "ALG_2_dat.xz"))
 

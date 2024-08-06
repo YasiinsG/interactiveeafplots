@@ -15,18 +15,14 @@
 #' @import dplyr
 #' @import rgl
 #' @import gMOIP
+#' @import ggplot2
 #'
 #' @examples
 #' options("warn"=-1)
-#' suppressMessages(library(dplyr))
-#' suppressMessages(library(plotly))
-#' library(moocore)
-#' library(rgl)
-#' library(gMOIP)
+#' library(interactiveeafplots)
 #'
-#' extdata_dir <- system.file(package="moocore", "extdata")
+#' extdata_dir <- system.file(package="interactiveeafplots", "data/extdata")
 #' x <- read_datasets(file.path(extdata_dir, "spherical-250-10-3d.txt"))
-#' #x <- moocore::read_datasets("spherical-250-10-3d.txt")
 #' # Select only the last 3 datasets
 #' x <- x[x[, 4] >= 8, ]
 #'

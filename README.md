@@ -39,6 +39,8 @@ commands will give more information:
 
 ``` r
 library(interactiveeafplots)
+#> Warning: replacing previous import 'ggplot2::last_plot' by 'plotly::last_plot'
+#> when loading 'interactiveeafplots'
 ?interactiveeafplot
 ?interactiveeafdiffplot
 ?interactivesymdevplot

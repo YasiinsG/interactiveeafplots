@@ -13,6 +13,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr,
+    ggplot2,
     gMOIP,
     graphics,
     moocore,
@@ -23,3 +24,5 @@ Imports:
     stringr,
     tidyr
 RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)

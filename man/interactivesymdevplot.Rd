@@ -71,12 +71,9 @@ Interactively plotting the Symmetric Deviation function
 }
 \examples{
 options("warn"=-1)
-suppressMessages(library(dplyr))
-suppressMessages(library(plotly))
-library(moocore)
-library(stringr)
+library(interactiveeafplots)
 
-data(CPFs, package = "moocore")
+data(CPFs, package = "interactiveeafplots")
 res <- moocore::vorobT(CPFs, reference = c(2, 200))
 print(res$threshold)
 #> [1] 44.14062

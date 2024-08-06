@@ -22,15 +22,13 @@
 #' @import moocore
 #' @import dplyr
 #' @import stringr
+#' @import ggplot2
 #'
 #' @examples
 #' options("warn"=-1)
-#' suppressMessages(library(dplyr))
-#' suppressMessages(library(plotly))
-#' library(moocore)
-#' library(stringr)
+#' library(interactiveeafplots)
 #'
-#' data(gcp2x2,package='moocore')
+#' data(gcp2x2,package='interactiveeafplots')
 #' tabucol <- subset(gcp2x2, alg != "TSinN1")
 #' tabucol$alg <- tabucol$alg[drop=TRUE]
 #' mydata <- tabucol %>% filter(inst=="DSJC500.5")
@@ -42,7 +40,7 @@
 #'                    sci.notation=FALSE, xlabel="MIN X", ylabel="MIN Y",
 #'                    plot="plotly")
 #'
-#' data(SPEA2minstoptimeRichmond,package='moocore')
+#' data(SPEA2minstoptimeRichmond,package='interactiveeafplots')
 #' SPEA2minstoptimeRichmond[,2] <- SPEA2minstoptimeRichmond[,2] / 60
 #' interactiveeafplot(SPEA2minstoptimeRichmond, percentiles = c(0,50,100),
 #'                    col=c("yellow","red"),maximise=c(TRUE,FALSE), type="point",
