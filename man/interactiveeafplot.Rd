@@ -67,7 +67,7 @@ library(interactiveeafplots)
 data(gcp2x2,package='interactiveeafplots')
 tabucol <- subset(gcp2x2, alg != "TSinN1")
 tabucol$alg <- tabucol$alg[drop=TRUE]
-mydata <- tabucol \%>\% filter(inst=="DSJC500.5")
+mydata <- dplyr::filter(tabucol, inst == "DSJC500.5")
 mydata <- mydata[c("time","best","run")]
 interactiveeafplot(x=mydata, percentiles=c(0,50,100), col=c("yellow","red"),
                    maximise=FALSE, type="area", lty="longdash",

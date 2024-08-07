@@ -70,9 +70,9 @@ Interactively plotting the EAF difference
 options("warn"=-1)
 library(interactiveeafplots)
 
-extdata_dir <- system.file(package="interactiveeafplots", "data/extdata")
-A1 <- read_datasets(file.path(extdata_dir, "ALG_1_dat.xz"))
-A2 <- read_datasets(file.path(extdata_dir, "ALG_2_dat.xz"))
+extdata_dir <- system.file(package="interactiveeafplots", "extdata")
+A1 <- moocore::read_datasets(file.path(extdata_dir, "ALG_1_dat.xz"))
+A2 <- moocore::read_datasets(file.path(extdata_dir, "ALG_2_dat.xz"))
 
 interactiveeafdiffplot(data_left=A1, data_right=A2, maximise = FALSE,
                        type = "area", legend.pos = "topright",psize = 1,

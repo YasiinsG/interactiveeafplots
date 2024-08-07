@@ -38,8 +38,8 @@ Interactively plotting 3D attainment plots
 options("warn"=-1)
 library(interactiveeafplots)
 
-extdata_dir <- system.file(package="interactiveeafplots", "data/extdata")
-x <- read_datasets(file.path(extdata_dir, "spherical-250-10-3d.txt"))
+extdata_dir <- system.file(package="interactiveeafplots", "extdata")
+x <- moocore::read_datasets(file.path(extdata_dir, "spherical-250-10-3d.txt"))
 # Select only the last 3 datasets
 x <- x[x[, 4] >= 8, ]
 
