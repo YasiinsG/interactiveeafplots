@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 # <u>interactiveeafplots</u>: Visualisations of the Empirical Attainment Function
 
 <!-- badges: start -->
-[ [**GitHub**](https://github.com/YasiinsG) ] [ [**LinkedIn**](https://www.linkedin.com/in/yasinsg/) ]
+[ [**Homepage**](https://yasiinsg.github.io/interactiveeafplots/) ] [ [**GitHub**](https://github.com/YasiinsG) ] [ [**LinkedIn**](https://www.linkedin.com/in/yasinsg/) ]
 
 **Author:** [Yasin Gija](https://www.linkedin.com/in/yasinsg/)
 <!-- badges: end -->

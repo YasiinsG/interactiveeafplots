@@ -5,7 +5,8 @@
 
 <!-- badges: start -->
 
-\[ [**GitHub**](https://github.com/YasiinsG) \] \[
+\[ [**Homepage**](https://yasiinsg.github.io/interactiveeafplots/) \] \[
+[**GitHub**](https://github.com/YasiinsG) \] \[
 [**LinkedIn**](https://www.linkedin.com/in/yasinsg/) \]
 
 **Author:** [Yasin Gija](https://www.linkedin.com/in/yasinsg/)
