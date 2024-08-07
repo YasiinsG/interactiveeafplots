@@ -8,7 +8,7 @@ Description: Plotting the Empirical Attainment Function(EAF),
     the EAF differences, the symmetric deviation function and 3d plots
     of the EAF.
 License: GPL (>= 3)
-URL: ~
+URL: https://github.com/YasiinsG/interactiveeafplots
 Encoding: UTF-8
 LazyData: true
 Imports: 
