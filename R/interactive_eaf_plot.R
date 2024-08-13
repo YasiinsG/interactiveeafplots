@@ -60,7 +60,7 @@ interactiveeafplot <- function(
     psize=2,
     pshape=16,
     legend.pos="topright",
-    xaxis.side="below",
+    xaxis.side="bottom",
     yaxis.side="left",
     axes=TRUE,
     xlabel=NULL,

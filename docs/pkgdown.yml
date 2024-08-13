@@ -1,5 +1,6 @@
 pandoc: 3.1.11
 pkgdown: 2.1.0
 pkgdown_sha: ~
-articles: {}
-last_built: 2024-08-07T13:38Z
+articles:
+  EAF_Plot_Comparisons: EAF_Plot_Comparisons.html
+last_built: 2024-08-13T00:29Z
